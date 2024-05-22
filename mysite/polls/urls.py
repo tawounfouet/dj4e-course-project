@@ -8,7 +8,7 @@ urlpatterns = [
     path("", views.index, name="index"),
 
     # for the grade assigment
-    path('owner', views.owner, name='owner'),
+    path('owner/', views.owner, name='owner'),
 
     # ex: /polls/5/
     path("<int:question_id>/", views.detail, name="detail"),
