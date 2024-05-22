@@ -333,3 +333,11 @@ https://docs.djangoproject.com/en/4.2/intro/tutorial03/
 
 `Overview`
 A view is a “type” of web page in your Django application that generally serves a specific function and has a specific template. For example, in a blog application, you might have the following views:
+
+
+
+### Django Tutorial 04
+Writing your first Django app, part 4¶
+
+#### Write a minimal form¶
+Let’s update our poll detail template (“polls/detail.html”) from the last tutorial, so that the template contains an HTML <form> element:
