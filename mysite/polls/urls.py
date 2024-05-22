@@ -2,7 +2,7 @@ from django.urls import path
 
 from . import views
 
-app_name = "polls"
+#app_name = "polls"
 # urlpatterns = [
 #     # ex: /polls/
 #     path("", views.index, name="index"),
@@ -22,6 +22,7 @@ app_name = "polls"
 # ]
 
 # You can mix function and class views in your mysite/polls/urls.py file as shown below:
+app_name = "polls"
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
     path('owner', views.owner, name='owner'),
