@@ -5,3 +5,64 @@
 .venv/
 __pycache__/
 
+
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Ignore Django migration files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.eggs/
+*.mo
+
+# Ignore development and production environment files
+*.cover
+.coverage
+*.coveragerc
+*.pyc
+*.pyo
+.tox/
+.dist/
+.build/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.coverage
+*.coverage.*
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore database files
+*.sqlite3
+
+# Ignore static files
+staticfiles/
+
+# Ignore local settings
+local_settings.py
