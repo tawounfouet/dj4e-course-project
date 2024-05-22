@@ -120,6 +120,7 @@ def owner(request):
     return HttpResponse("Hello, world. 6742bca8 is the polls index.")
 
 
+
 def results(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     return render(request, "polls/results.html", {"question": question})
