@@ -326,3 +326,10 @@ Once you have completed tutorial, make a second admin user with the following in
 Account: dj4e
 Password: bca83e6da
 ```
+
+### Django Tutorial 03
+Writing your first Django app, part 3
+https://docs.djangoproject.com/en/4.2/intro/tutorial03/  
+
+`Overview`
+A view is a “type” of web page in your Django application that generally serves a specific function and has a specific template. For example, in a blog application, you might have the following views:
