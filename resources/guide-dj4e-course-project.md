@@ -337,7 +337,22 @@ A view is a “type” of web page in your Django application that generally ser
 
 
 ### Django Tutorial 04
-Writing your first Django app, part 4¶
+Writing your first Django app, part 4
+https://docs.djangoproject.com/en/4.2/intro/tutorial04/ 
 
 #### Write a minimal form¶
 Let’s update our poll detail template (“polls/detail.html”) from the last tutorial, so that the template contains an HTML <form> element:
+
+#### dj4e assigment
+https://www.dj4e.com/tools/dj-tutorial/?PHPSESSID=3f0eb86a490be131cd2d09bacc6bd3ed 
+
+```py
+You can mix function and class views in your mysite/polls/urls.py file as shown below:
+urlpatterns = [
+    path('', views.IndexView.as_view(), name='index'),
+    path('owner', views.owner, name='owner'),
+    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
+    path('<int:question_id>/vote/', views.vote, name='vote'),
+]
+```
