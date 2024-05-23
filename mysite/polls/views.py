@@ -3,6 +3,9 @@ from django.http import HttpResponse
 
 
 
+def owner(request):
+    return HttpResponse("Hello, world. 8f3711e4 is the polls index.")
+
 # def index(request):
 #     #return HttpResponse("Hello, world. You're at the polls index.")
 #     return HttpResponse("Hello, world. 68addc82 is the polls index.")
@@ -115,9 +118,6 @@ def vote(request, question_id):
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
-
-def owner(request):
-    return HttpResponse("Hello, world. 6742bca8 is the polls index.")
 
 
 
