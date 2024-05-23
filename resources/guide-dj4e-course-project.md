@@ -356,3 +356,19 @@ urlpatterns = [
     path('<int:question_id>/vote/', views.vote, name='vote'),
 ]
 ```
+
+
+## Django Features and Libraries
+
+### Week 1 - DIY Hello World / Sessions
+https://www.dj4e.com/tools/dj-tutorial/?PHPSESSID=5698078ea83ae7706cc34918116e1583 
+
+```sh
+# Building a Main Page
+cd ~/django_projects/mysite
+python manage.py startapp home
+
+
+# Playing With Sessions (DIY)
+python manage.py startapp hello
+```
