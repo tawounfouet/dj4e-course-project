@@ -390,3 +390,10 @@ python manage.py migrate
 # create user 
 Account: dj4e_user 
 Password: Meow_f3711e_42
+```
+
+### Week 4: Cat Database CRUD
+```sh
+workon django42 
+cd ~/django_projects/mysite
+python manage.py startapp cats
