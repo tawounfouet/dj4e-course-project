@@ -372,3 +372,21 @@ python manage.py startapp home
 # Playing With Sessions (DIY)
 python manage.py startapp hello
 ```
+
+
+### Week 3 - Login / Autos CRUD
+https://www.dj4e.com/assn/dj4e_autos.md?PHPSESSID=086179c51c5c735d0c59bfc7afabad22 
+
+```sh
+workon django42      # or django4 as needed
+cd ~/django_projects/mysite
+python manage.py startapp autos
+
+python manage.py check 
+
+python manage.py makemigrations
+python manage.py migrate
+
+# create user 
+Account: dj4e_user 
+Password: Meow_f3711e_42
