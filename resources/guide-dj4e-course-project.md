@@ -411,3 +411,43 @@ pip install mysqlclient
 python manage.py makemigrations 
 
 python manage.py startapp ads
+```
+
+###  Building and Loading a Data Model
+
+```sh
+python manage.py startapp unesco
+wget https://www.dj4e.com/assn/dj4e_load/whc-sites-2018-clean.csv
+
+cd ~/django_projects/mysite
+mkdir scripts
+touch scripts/__init__.py
+
+# install django extensions
+pip install django_extensions
+```
+
+```py
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+...
+    'django_extensions', # Add
+    'unesco.apps.UnescoConfig',  # Add
+]
+```
+
+```sh
+
+cd ~/django_projects/mysite
+python manage.py makemigrations
+python manage.py migrate
+```
+
+
+## Using JavaScript and JSON in Django
+
+### Week 2 - Classified Ads #2 - Pictures and Comments
+
+```sh
