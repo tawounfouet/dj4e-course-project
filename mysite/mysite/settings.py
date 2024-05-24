@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'rest_framework',
     'social_django',
-    'taggit',
+    'taggit', # for searching
     'home.apps.HomeConfig',
     'ads',
     'unesco',  # Add

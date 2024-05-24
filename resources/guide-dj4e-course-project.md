@@ -471,3 +471,9 @@ Homepage Url: https://drchuck.pythonanywhere.com
 Application Description: Some pithy words...
 Authorization callback URL: https://drchuck.pythonanywhere.com/oauth/complete/github/
 ```
+
+### Week 5 - Classified Ad Web Site - Milestone 4 - 
+
+```sh
+# https://django-taggit.readthedocs.io/en/latest/getting_started.html#settings
+pip install django-taggit
