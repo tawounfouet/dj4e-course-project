@@ -59,7 +59,7 @@ coverage.xml
 *.sublime-workspace
 
 # Ignore database files
-*.sqlite3
+#*.sqlite3
 
 # Ignore static files
 staticfiles/
