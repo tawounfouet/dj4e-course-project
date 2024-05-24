@@ -455,3 +455,19 @@ cd ~/django_projects/mysite
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+### Week 4 - Building Classified Ad Site #3 - JSON & Ajax 
+```sh
+python manage.py createsuperuser
+username: tawounfouet
+
+
+
+# Github config
+https://github.com/settings/developers
+
+Application name: ChuckList PythonAnywhere
+Homepage Url: https://drchuck.pythonanywhere.com
+Application Description: Some pithy words...
+Authorization callback URL: https://drchuck.pythonanywhere.com/oauth/complete/github/
+```
