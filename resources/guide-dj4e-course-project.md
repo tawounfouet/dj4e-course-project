@@ -451,3 +451,7 @@ python manage.py migrate
 ### Week 2 - Classified Ads #2 - Pictures and Comments
 
 ```sh
+cd ~/django_projects/mysite
+python manage.py makemigrations
+python manage.py migrate
+```
