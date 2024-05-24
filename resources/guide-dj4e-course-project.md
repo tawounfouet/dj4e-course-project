@@ -397,3 +397,17 @@ Password: Meow_f3711e_42
 workon django42 
 cd ~/django_projects/mysite
 python manage.py startapp cats
+
+```
+
+
+### Week 5:  Building a Classified Ad Web Site (Django 4.2)
+```sh
+cp ~/dj4e-samples/dj4e-samples/settings.py ~/django_projects/mysite/mysite
+cp ~/dj4e-samples/dj4e-samples/urls.py ~/django_projects/mysite/mysite
+cp -r ~/dj4e-samples/home/* ~/django_projects/mysite/home
+
+pip install mysqlclient
+python manage.py makemigrations 
+
+python manage.py startapp ads
