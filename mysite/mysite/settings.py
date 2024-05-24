@@ -8,7 +8,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Used for a default title
-APP_NAME = 'ChucksList'   # Add
+APP_NAME = 'Awf Dj4e'   # Add
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'g$iqqu&*mw4_sg3(#ld0sqaalxebel&168^yj%i&sgrw(fmn@w'
@@ -30,14 +30,14 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
 
     # Extensions - installed with requirements.txt
-    'django_extensions', 
-    'crispy_forms',  
-    'crispy_bootstrap5',  
-    'rest_framework', 
-    'social_django',  
+    'django_extensions',
+    'crispy_forms',
+    'crispy_bootstrap5',
+    'rest_framework',
+    'social_django',
     'taggit',
-    'home.apps.HomeConfig', 
-    'ads',   
+    'home.apps.HomeConfig',
+    'ads',
 
     # Sample Applications - don't copy
     'hello.apps.HelloConfig',
@@ -188,7 +188,7 @@ REST_FRAMEWORK = {
 
 # Configure the social login
 try:
-    from . import github_settings 
+    from . import github_settings
     SOCIAL_AUTH_GITHUB_KEY = github_settings.SOCIAL_AUTH_GITHUB_KEY
     SOCIAL_AUTH_GITHUB_SECRET = github_settings.SOCIAL_AUTH_GITHUB_SECRET
 except:
